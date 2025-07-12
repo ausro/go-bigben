@@ -13,3 +13,5 @@ Times given use timecode <t:> to display local time for the user.
 It is recommended to run from command line.
 
 `./go-bigben.exe`
+
+Upon first startup you will be prompted to input your bot's token and the channel id for the bot to message in.

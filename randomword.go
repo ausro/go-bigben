@@ -25,7 +25,7 @@ func getRandomWord() Word {
 
 func getWordFromBody(body string) Word {
 	// <div id="random_word">[word]</div> ... <div id="random_word_definition">[definition]</div>
-	r := regexp.MustCompile("id=\"random_word\">(?P<Name>[A-Za-z ,;-]+)<.+[\n].+id=\"random_word_definition\">(?P<Definition>[A-Za-z ,;-]+)")
+	r := regexp.MustCompile("id=\"random_word\">(?P<Name>.+)</.+[\n].+id=\"random_word_definition\">(?P<Definition>.+)</")
 
 	names := r.FindStringSubmatch(body)
 	if names == nil {
