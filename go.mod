@@ -1,4 +1,4 @@
-module ausro/go-bigben
+module github.com/ausro/go-bigben
 
 go 1.24.4
 
