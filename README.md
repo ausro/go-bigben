@@ -1,7 +1,7 @@
 # go-bigben
 Simple bot for timekeeping. Tolls at the top of the hour.
 
-Says a new random word with definition every hour.
+Says a random word with definition each time it tolls.
 Times given use timecode <t:> to display local time for the user.
 
 ## Building
@@ -10,8 +10,9 @@ Times given use timecode <t:> to display local time for the user.
 `go build`
 
 ## Running
-It is recommended to run from command line.
+Double click on the built go-bigben.exe to run it.
 
+Or run from command line:
 `./go-bigben.exe`
 
 Upon first startup you will be prompted to input your bot's token and the channel id for the bot to message in.
