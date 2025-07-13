@@ -4,6 +4,8 @@ Simple bot for timekeeping. Tolls at the top of the hour.
 Says a random word with definition each time it tolls.
 Times given use timecode <t:> to display local time for the user.
 
+<img width="319" height="153" alt="Example of bot output showing 8 pm and 'contradistinguish'" src="https://github.com/user-attachments/assets/a5f6c7e0-e843-4b9e-bb5f-641b01bafef8" />
+
 ## Building
 `git clone https://github.com/ausro/go-bigben.git`
 
